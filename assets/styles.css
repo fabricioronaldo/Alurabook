@@ -1,0 +1,23 @@
+@import url(../assets/styles/header.css);
+@import url(../assets/styles/banner.css);
+@import url(../assets/styles/carrossel.css);
+@import url(../assets/styles/topicos.css);
+@import url(../assets/styles/captura.css);
+@import url(../assets/styles/rodape.css);
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --azul-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
