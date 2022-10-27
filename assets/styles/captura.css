@@ -36,3 +36,30 @@
     padding-left: 2em;
 
 }
+
+@media screen and (min-width: 1024px) {
+    .captura {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .captura__titulo {
+        font-size: 24px;
+        
+    }
+
+    .captura__contato {
+        width: 30%;
+    }
+
+    .captura__descricao {
+        margin-right: 1em;
+    }
+
+    .captura__form {
+        width: 30%;
+        
+    }
+
+}
