@@ -101,7 +101,31 @@
     .card {
         width: 50%;
         margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 40%;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
 
     }
-    
+
+    .descricao__texto {
+        margin-right: 1em;
+    }
 }
